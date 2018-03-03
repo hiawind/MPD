@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_fullfile"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selector_fileexplorer"
+    android:focusable="true"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <ImageView
+        android:id="@+id/item_file_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingTop="3dp"
+        android:src="@drawable/ic_folder_black_24dp"/>
+
+    <TextView
+        android:id="@+id/item_file_path"
+        android:layout_width="890dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="test"
+        android:ellipsize="marquee"
+        android:maxLines="1"
+        android:focusable="true"/>
+
+    <TextView
+        android:id="@+id/item_file_size"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:ellipsize="marquee"
+        android:maxLines="1"/>
+
+    <TextView
+        android:id="@+id/item_file_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:padding="5dp"
+        android:ellipsize="marquee"
+        android:maxLines="1"/>
+
+</LinearLayout>
